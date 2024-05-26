@@ -4,8 +4,12 @@
   "description": "A Linux app for ChatGPT.",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matthew Mulenga",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.8"
+  }
 }
